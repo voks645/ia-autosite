@@ -1,10 +1,32 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9fb;
+  background-color: #f2f4f8;
   margin: 0;
   padding: 0;
   color: #333;
+}
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav {
+  background-color: #0055a5;
+  text-align: center;
+  padding: 0.5em 0;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 .container {
   max-width: 900px;
